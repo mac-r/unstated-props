@@ -1,0 +1,55 @@
+{
+  "name": "unstated-connect",
+  "version": "0.0.1",
+  "description": "Provides access to your Unstated containers from component props.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "tsc --jsx react && mocha --require @babel/register",
+    "build": "tsc --jsx react",
+    "prepublish": "npm run test && npm run build"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mac-r/unstated-connect.git"
+  },
+  "keywords": [
+    "unstated",
+    "container",
+    "containers",
+    "react",
+    "state",
+    "component"
+  ],
+  "author": "Max Makarochkin <mms.post@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mac-r/unstated-connect/issues"
+  },
+  "homepage": "https://github.com/mac-r/unstated-connect#readme",
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "unstated": "^2.1.1"
+  },
+  "peerDependencies": {
+    "unstated": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "@types/react": "^16.8.4",
+    "chai": "^4.1.2",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "mocha": "^5.0.0",
+    "sinon": "^7.2.4",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.3.3333"
+  }
+}
