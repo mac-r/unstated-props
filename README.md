@@ -2,7 +2,6 @@
 
 [![NPM](http://img.shields.io/npm/v/unstated-connect.svg?style=flat)](https://www.npmjs.org/package/unstated-connect)
 [![travis-ci](https://travis-ci.org/developit/unstated-connect.svg?branch=master)](https://travis-ci.org/developit/unstated-connect)
-[![CDNJS](https://img.shields.io/cdnjs/v/unstated-connect.svg)](https://cdnjs.com/libraries/unstated-connect)
 
 > A higher-order component that enables access to your unstated containers from<br/> component props. No need to set up a `Provider` or `Subscribe` wrappers.
 
