@@ -98,7 +98,9 @@ export default connect({
 #### Step 3. Set up the root component
 
 Let's say that our demo app has the core component named `App`.
-This is the root of the whole thing. Thus we wrap it with a root flag:
+This is the root of the whole thing.
+
+We wrap it with a root flag:
 
 ```js
 // Root component "src/app.jsx".
