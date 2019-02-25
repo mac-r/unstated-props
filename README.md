@@ -1,7 +1,7 @@
 ## unstated-props
 
 [![NPM](http://img.shields.io/npm/v/unstated-props.svg?style=flat)](https://www.npmjs.org/package/unstated-props)
-[![travis-ci](hhttps://api.travis-ci.com/mac-r/unstated-props.svg?branch=master)](https://travis-ci.org/mac-r/unstated-props)
+[![Build Status](https://travis-ci.org/mac-r/unstated-props.svg?branch=master)](https://travis-ci.org/mac-r/unstated-props)
 
 > A higher-order component that enables access to your unstated containers from<br/> component props. No need to set up a `Provider` or `Subscribe` wrappers.
 
