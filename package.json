@@ -1,5 +1,5 @@
 {
-  "name": "unstated-connect",
+  "name": "unstated-props",
   "version": "0.0.1",
   "description": "Provides access to your Unstated containers from component props.",
   "main": "./lib/index.js",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mac-r/unstated-connect.git"
+    "url": "git+https://github.com/mac-r/unstated-props.git"
   },
   "keywords": [
     "unstated",
@@ -27,9 +27,9 @@
   "author": "Max Makarochkin <max@blinkloader.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mac-r/unstated-connect/issues"
+    "url": "https://github.com/mac-r/unstated-props/issues"
   },
-  "homepage": "https://github.com/mac-r/unstated-connect#readme",
+  "homepage": "https://github.com/mac-r/unstated-props#readme",
   "dependencies": {
     "react": "^16.8.2",
     "react-dom": "^16.8.2",

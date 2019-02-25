@@ -1,17 +1,17 @@
-## unstated-connect
+## unstated-props
 
-[![NPM](http://img.shields.io/npm/v/unstated-connect.svg?style=flat)](https://www.npmjs.org/package/unstated-connect)
-[![travis-ci](https://travis-ci.org/developit/unstated-connect.svg?branch=master)](https://travis-ci.org/developit/unstated-connect)
+[![NPM](http://img.shields.io/npm/v/unstated-props.svg?style=flat)](https://www.npmjs.org/package/unstated-props)
+[![travis-ci](https://travis-ci.org/developit/unstated-props.svg?branch=master)](https://travis-ci.org/developit/unstated-props)
 
 > A higher-order component that enables access to your unstated containers from<br/> component props. No need to set up a `Provider` or `Subscribe` wrappers.
 
 <p align="center">
-<img width="800" src='https://cdn.blinkloader.com/express/5HQn3LwK4R1E2Bpoyv672JIfK/unstated-connect.png' alt="unstated-connect usage demo" />
+<img width="800" src='https://cdn.blinkloader.com/express/5HQn3LwK4R1E2Bpoyv672JIfK/unstated-props.png' alt="unstated-props usage demo" />
 </p>
 
 ### 👋 Hi there!
 
-**unstated-connect** is an abstraction layer on
+**unstated-props** is an abstraction layer on
 top of **unstated** by **@jamiebuilds**:<br/>
 https://github.com/jamiebuilds/unstated
 
@@ -25,14 +25,14 @@ This is a higher-order component that enables access to your unstated containers
 To install the stable version:
 
 ```
-npm install --save unstated-connect
+npm install --save unstated-props
 ```
 
 This assumes you are using `npm` as your package manager.
 
 ### Usage
 
-Since `unstated-connect` is an extension on top of `unstated`, we create `Containers` as we would normally do.
+Since `unstated-props` is an extension on top of `unstated`, we create `Containers` as we would normally do.
 It's recommended to put all of your containers into a single folder. Your application
 structure would look similar to the following:
 
@@ -75,14 +75,14 @@ export default PlaylistContainer;
 #### Step 2. Create index.js in the "containers" folder
 
 Then you need to create the `index.js` file in your `containers/` folder.
-This is a place where you import `unstated-connect`. You can organize it
+This is a place where you import `unstated-props`. You can organize it
 in a way similar to this:
 
 ```js
 // containers/index.js
 // The major trick happens here.
 
-import { connect } from 'unstated-connect';
+import { connect } from 'unstated-props';
 import PlaylistContainer from './PlaylistContainer';
 import SettingsContainer from './SettingsContainer';
 
@@ -141,7 +141,7 @@ That's it. Enjoy! ❤️
 
 **Feel free to star this repo and follow me on Twitter:**
 
-[![Github](https://githubbadges.com/star.svg?user=mac-r&repo=unstated-connect&style=flat)](https://www.npmjs.org/package/unstated-connect)
+[![Github](https://githubbadges.com/star.svg?user=mac-r&repo=unstated-props&style=flat)](https://www.npmjs.org/package/unstated-props)
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/makarochkin.svg?style=social&label=Follow%20%40makarochkin)](https://twitter.com/makarochkin)
 
 ### Related
