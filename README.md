@@ -147,7 +147,7 @@ That's it. Enjoy! ❤️
 ### Related
 
 
-- [unstated](https://raw.githubusercontent.com/jamiebuilds/unstated) - State so simple, it goes without saying
+- [unstated](https://github.com/jamiebuilds/unstated) - State so simple, it goes without saying
 - [unstated-debug](https://github.com/sindresorhus/unstated-debug) - Debug your Unstated containers with ease
 
 ----
