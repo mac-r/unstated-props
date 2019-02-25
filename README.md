@@ -6,7 +6,7 @@
 > A higher-order component that enables access to your unstated containers from<br/> component props. No need to set up a `Provider` or `Subscribe` wrappers.
 
 <p align="center">
-<img width="800" src='https://cdn.blinkloader.com/express/5HQn3LwK4R1E2Bpoyv672JIfK/unstated-props.png' alt="unstated-props usage demo" />
+<img width="800" src='https://cdn.blinkloader.com/express/rF9GczNCw0srKYaWh0NlluCOM/unstated-props.png' alt="unstated-props usage demo" />
 </p>
 
 ### 👋 Hi there!
