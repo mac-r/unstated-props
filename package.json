@@ -1,6 +1,6 @@
 {
   "name": "unstated-props",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Provides access to your Unstated containers from component props.",
   "main": "./lib/index.js",
   "scripts": {
